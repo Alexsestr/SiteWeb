@@ -72,6 +72,26 @@ img {
     border-style: none;
         height: auto;    /* Conserve les proportions */
 }
+
+@media (max-width: 600px) {
+    img {
+      width: 100%; /* Affichage à 100% pour petits écrans */
+    }
+  }
+
+  /* Media query pour écrans moyens */
+  @media (min-width: 601px) and (max-width: 1200px) {
+    img {
+      width: 80%; /* Réduit la largeur à 80% pour les écrans moyens */
+    }
+  }
+
+  /* Media query pour grands écrans */
+  @media (min-width: 1201px) {
+    img {
+      width: 60%; /* Réduit la largeur à 60% pour les grands écrans */
+    }
+  }
 code, kbd, pre, samp {
     font-family: monospace, monospace;
     font-size: 1em;
