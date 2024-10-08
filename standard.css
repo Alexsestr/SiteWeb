@@ -73,23 +73,24 @@ img {
         height: auto;    /* Conserve les proportions */
 }
 
+  /* Media query pour écrans petits */
 @media (max-width: 600px) {
     img {
-      width: 100%; /* Affichage à 100% pour petits écrans */
+      width: 100%;
     }
   }
 
   /* Media query pour écrans moyens */
   @media (min-width: 601px) and (max-width: 1200px) {
     img {
-      width: 80%; /* Réduit la largeur à 80% pour les écrans moyens */
+      width: 80%;
     }
   }
 
   /* Media query pour grands écrans */
   @media (min-width: 1201px) {
     img {
-      width: 60%; /* Réduit la largeur à 60% pour les grands écrans */
+      width: 60%;
     }
   }
 code, kbd, pre, samp {
